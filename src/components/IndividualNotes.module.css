@@ -1,0 +1,20 @@
+.note {
+  display: flex;
+  align-items: flex-start;
+  gap: 4rem;
+}
+.metadata {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #353535;
+  flex-shrink: 0;
+}
+.text {
+  font-size: 1.6rem;
+  flex-shrink: 1;
+}
+/* @media only screen and (max-width: 600px) {
+  .text {
+    max-width: 50vw;
+  }
+} */

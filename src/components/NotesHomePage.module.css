@@ -1,0 +1,10 @@
+.home {
+  height: 100vh;
+  flex: 1;
+  background-color: #f7ecdc;
+  display: flex;
+  flex-direction: column;
+}
+.none {
+  display: none;
+}

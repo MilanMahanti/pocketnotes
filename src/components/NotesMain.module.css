@@ -1,0 +1,35 @@
+.main {
+  height: 100vh;
+  background: #f7ecdc;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bgimg {
+  width: 33vw;
+}
+.title {
+  font-size: 3.5rem;
+}
+.des {
+  font-size: 1.8rem;
+  width: 53rem;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  bottom: 1rem;
+}
+.bottom-text {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    display: none;
+  }
+}
