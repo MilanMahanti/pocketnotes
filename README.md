@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# PocketNotes 📝
+PocketNotes is a simple react app for taking notes both on mobile and desktop . <br/>
+## Features 📃
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
++ It has a beautiful and clean UI which is also user friendly.
++ User can create multiple notes group .
++ It stores all notes overtime so don't worry about loosing your notes.
+
+## Developement 💻
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). <br/>
+For state management of this react project I have used `useContext` and `useState`. <br/>
+To store the notes I have used the browser API `localStorage` .
+
+----
+<br/>
+
+
+
+
+
+
+
+
 
 ## Available Scripts
 
@@ -39,32 +60,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
