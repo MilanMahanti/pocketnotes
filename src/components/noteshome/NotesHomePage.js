@@ -1,4 +1,4 @@
-import useNotes from "../hooks/useNotes";
+import useNotes from "../../hooks/useNotes";
 import NotesHomeBody from "./NotesHomeBody";
 import NotesHomeHeader from "./NotesHomeHeader";
 import styles from "./NotesHomePage.module.css";

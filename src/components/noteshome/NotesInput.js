@@ -1,7 +1,7 @@
 import styles from "./NotesInput.module.css";
-import send from "../assets/send-icon.png";
+import send from "../../assets/send-icon.png";
 import { useState } from "react";
-import useNotes from "../hooks/useNotes";
+import useNotes from "../../hooks/useNotes";
 function NotesInput({ setNotesData }) {
   const { selected } = useNotes();
   const [notesText, setNotesText] = useState("");
@@ -40,12 +40,6 @@ function NotesInput({ setNotesData }) {
         <label htmlFor="text" hidden>
           Textarea
         </label>
-        {/* <inpu
-          type="textarea"
-          id="text"
-          placeholder="Enter Your Text Here..."
-          required
-        /> */}
         <textarea
           required
           id="text"

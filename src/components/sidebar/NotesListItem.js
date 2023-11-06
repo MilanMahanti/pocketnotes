@@ -1,4 +1,4 @@
-import useNotes from "../hooks/useNotes";
+import useNotes from "../../hooks/useNotes";
 import styles from "./NotesListItem.module.css";
 function NotesListItem({ item }) {
   const { selected, setSelected, isMobile, setDisplay } = useNotes();

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { v4 } from "uuid";
 import styles from "./CreateNoteModal.module.css";
-import useNotes from "../hooks/useNotes";
+import useNotes from "../../hooks/useNotes";
 import ColorCircle from "./ColorCircle";
 
 const colorList = [

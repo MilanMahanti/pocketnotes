@@ -1,6 +1,6 @@
 import NoteList from "./NoteList";
 import styles from "./Sidebar.module.css";
-import useNotes from "../hooks/useNotes";
+import useNotes from "../../hooks/useNotes";
 function Sidebar({ setModalIsOpen }) {
   const { display } = useNotes();
   function handelClick(e) {

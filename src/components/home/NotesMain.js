@@ -1,6 +1,6 @@
 import styles from "./NotesMain.module.css";
-import bgimg from "../assets/image-removebg-preview 1.png";
-import lock from "../assets/lock-icon.svg";
+import bgimg from "../../assets/image-removebg-preview 1.png";
+import lock from "../../assets/lock-icon.svg";
 function NotesMain() {
   return (
     <div className={styles.main}>

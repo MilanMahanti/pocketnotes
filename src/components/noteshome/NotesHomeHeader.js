@@ -1,6 +1,6 @@
-import useNotes from "../hooks/useNotes";
+import useNotes from "../../hooks/useNotes";
 import styles from "./NotesHomeHeader.module.css";
-import arrow from "../assets/arrow.svg";
+import arrow from "../../assets/arrow.svg";
 function NotesHomeHeader() {
   const { selected, notes, isMobile, setDisplay } = useNotes();
   const newNote = notes.filter((note) => note.id === selected);

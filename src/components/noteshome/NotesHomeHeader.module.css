@@ -17,6 +17,7 @@
   font-size: 1.8rem;
   font-weight: 500;
   color: #fff;
+  flex-shrink: 0;
 }
 .heading {
   font-weight: 500;
@@ -35,8 +36,8 @@
   .header {
     height: 12vh;
     padding: 1rem;
-    position: fixed;
-    top: 0;
-    left: 0;
+  }
+  .heading {
+    overflow-wrap: anywhere;
   }
 }

@@ -1,5 +1,5 @@
 import styles from "./NoteList.module.css";
-import useNotes from "../hooks/useNotes";
+import useNotes from "../../hooks/useNotes";
 import NotesListItem from "./NotesListItem";
 function NoteList() {
   const { notes } = useNotes();

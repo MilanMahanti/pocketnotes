@@ -1,10 +1,10 @@
 import { useState } from "react";
 import styles from "./App.module.css";
-import NotesMain from "./components/NotesMain";
-import Sidebar from "./components/Sidebar";
-import CreateNoteModal from "./components/CreateNoteModal";
+import NotesMain from "./components/home/NotesMain";
+import Sidebar from "./components/sidebar/Sidebar";
+import CreateNoteModal from "./components/modal/CreateNoteModal";
 import useNotes from "./hooks/useNotes";
-import NotesHomePage from "./components/NotesHomePage";
+import NotesHomePage from "./components/noteshome/NotesHomePage";
 
 function App() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
